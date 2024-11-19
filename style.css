@@ -1,0 +1,99 @@
+body{
+    font-family: 'DaMiOne';
+    background-color: #242424;
+}
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.186);
+}
+.navbar-brand {
+    font-size: 20px;
+}
+
+#sideMenu {
+    background-color: #ffffff7c;
+}
+
+#sideMenu .nav-link {
+    color: #000000;
+    font-size: 15px;
+    padding: 0.2px;
+    padding-left: 17px;
+}
+
+#sideMenu .nav-link:hover {
+    color: #fefefe;
+}
+.carousel-img {
+    padding-top: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.carousel-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.carousel-img {
+    max-height: 600px;
+    object-fit: cover;
+}
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.card {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height: 250px;
+}
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 15px;
+    color: #6c757d;
+    font-family: 'Jura';
+}
+.card .btn-primary {
+    background-color: #000000c6;
+    border: none;
+}
+.bioSection {
+    padding-top: 20px;
+    color:rgb(240, 248, 255);
+}
+#bioContent {
+    color: #ffffff;
+    font-family: 'Jura';
+    padding-left: 5px;
+}
+.bioSection h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.img-hover {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.img-hover:hover {
+    transform: scale(1.1);}

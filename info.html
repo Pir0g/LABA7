@@ -1,0 +1,101 @@
+<!Doctype html>
+<html lang="ru">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel ="stylesheet" href="style.css">
+        <title>Mads Mikkelsen</title>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" d-flex flex-row>
+                    <li class="nav-item"><a class="nav-link" href="info.html">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="films.html">Films</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="position-sticky">
+        <nav id="sideMenu" class="navbar navbar-expand-sn">
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item me-2"><a class="nav-link" href="#carouselSection">Carousel</a></li>
+                <li class="nav-item me-2"><a class="nav-link" href="#cards">Films</a></li>
+                <li class="nav-item me-2"><a class="nav-link" href="#bioSection">Biography</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="carouselSection" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="actor1.jpg" class="d-block w-100 carousel-img" alt="Actor Photo 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="actor2.jpg" class="d-block w-100 carousel-img" alt="Actor Photo 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="actor3.jpg" class="d-block w-100 carousel-img" alt="Actor Photo 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSection" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSection" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div> 
+        <div id="cards" class="d-flex justify-content-between flex-wrap mt-5">
+            <div class="card flex-grow-1 mx-2">
+                <img src="film1.jpg" class="card-img-top" alt="Film 1">
+                <div class="card-body">
+                    <h5 class="card-title">Hannibal (2013-2015)</h5>
+                    <p class="card-text">
+                        FBI profiler Will Graham is recruited by Jack Crawford, the head of Behavioral Sciences of the FBI, to help investigate a serial killer in Minnesota. With the investigation weighing heavily on Graham, Crawford decides to have him supervised by forensic psychiatrist Dr. Hannibal Lecter. Initially, Lecter—who is secretly a serial killer and a cannibal—works to manipulate the FBI from within. The bond Lecter builds with Graham begins to threaten his longevity. Lecter is fascinated by Graham's ability to empathize with psychopathic murderers and tries to push the boundaries of Graham's fragile sanity to turn him into a killer.
+                    </p>
+                    <a href="https://www.kinopoisk.ru/series/682468/" class="btn btn-primary" target="_blank">View on Kinopoisk</a>
+                </div>
+            </div>
+            <div class="card flex-grow-1 mx-2">
+                <img src="film2.png" class="card-img-top" alt="Film 2">
+                <div class="card-body">
+                    <h5 class="card-title">Another Round (2020)</h5>
+                    <p class="card-text">
+                        A nameless man at a local bar grows increasingly unnerved as anonymous messages written on his napkin begin to contain communications directed specifically at him. As he becomes more engaged in this peculiar correspondence, he finds that he can't simply leave because tonight he needs answers to questions that might unlock the mystery of who he is... and what he needs to do.
+                    </p>
+                    <a href="https://www.kinopoisk.ru/film/1263705/" class="btn btn-primary" target="_blank">View on Kinopoisk</a>
+                </div>
+            </div>
+            <div class="card flex-grow-1 mx-2">
+                <img src="film3.jpg" class="card-img-top" alt="Film 3">
+                <div class="card-body">
+                    <h5 class="card-title">Casino Royale (2006)</h5>
+                    <p class="card-text">
+                        After earning a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, in Montenegro.
+                    </p>
+                    <a href="https://www.kinopoisk.ru/film/49844/" class="btn btn-primary" target="_blank">View on Kinopoisk</a>
+                </div>
+            </div>
+        </div>
+        
+    <div id="bioSection" class="mt-5">
+        <h2>Biography</h2>
+        <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#bioContent" aria-expanded="false" aria-controls="bioContent">
+            Show/Hide Bio
+        </button>
+        <div class="collapse mt-3" id="bioContent">
+            <p>Mads Mikkelsen is a Danish actor. He was born on November 22, 1965 in Copenhagen.
+
+                In his youth, he practiced gymnastics and dancing, studied at the Gothenburg Ballet Academy. In 1996 he graduated from the Arhus Theatre School.
+                
+                He is known for playing antagonist characters in such films as "The Hunt", "Casino Royale", in the TV series "Hannibal" (2013-2015).</p>
+        </div>
+    </div>
+</body>
+</html>
